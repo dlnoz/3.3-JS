@@ -202,7 +202,9 @@ for( var i = a; i <= b ; i++){
 console.log("b lar yig'indisi", bYigindisi)
 
 
-7-misol
+
+// ------ #TASK14 ------
+
 var a = Number(prompt("5 soni"))
 var b = Number(prompt("49 soni"))
 var toqlarYigindisi = 0
@@ -227,7 +229,9 @@ else {
 }
 
 
-9-misol
+
+// ------ #TASK15 ------
+
 var a = Number(prompt("A kesma uzunligini kiriting (A > B)"));
 var b = Number(prompt("B kesma uzunligini kiriting"));
 
@@ -239,7 +243,10 @@ for (; qoldiq >= b; ) {
 
 console.log("Qoldiq:", qoldiq);
 
-10-misol
+
+
+//  ------ #TASK16 ------
+
 var son = Number(prompt("Sonni kiriting"))
 var narx = Number(prompt("Narxni kiriting"))
 
@@ -247,7 +254,10 @@ for( var i = 0.1; i < son; i+=0.1){
   console.log(i.toFixed(1) * narx)
 }
 
-11-misol
+
+
+// ------ #TASK17 ------
+
 var a = Number(prompt("Birinchi ikki xonali sonni kiriting:"));
 var b = Number(prompt("Ikkinchi ikki xonali sonni kiriting:"));  
 var kichik = 0;
@@ -265,7 +275,9 @@ for (var i = kichik; i <= katta; i++) {
   console.log(i);
 }
 
-12-misol
+
+
+// ------ #TASK18 ------
 var a = Number(prompt("A sonini kiriting (A > B):"));
 var b = Number(prompt("B sonini kiriting (B < A):"));
 
@@ -282,33 +294,4 @@ if (b <= 1) {
   if (i === b) {
     console.log(b + " soni tub.");
   }
-}
-
-
-Qo'shimcha Masala (hafta kunlarini topish)
-var kun = Number(prompt("Hafta kunining raqamini kiriting (1-7):"));
-switch (kun) {
-  case 1:
-    console.log("Dushanba");
-    break;
-  case 2:
-    console.log("Seshanba");
-    break;
-  case 3:
-    console.log("Chorshanba");
-    break;
-  case 4:
-    console.log("Payshanba");
-    break;
-  case 5:
-    console.log("Juma");
-    break;
-  case 6:
-    console.log("Shanba");
-    break;
-  case 7:
-    console.log("Yakshanba");
-    break;
-  default:
-    console.log("Noto'g'ri kun raqami kiritildi");
 }
